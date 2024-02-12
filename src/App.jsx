@@ -4,7 +4,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
 import { Searchbar, Sidebar, MusicPlayer, TopPlay } from './components';
 import { ArtistDetails, TopArtists, AroundYou, Discover, Search, SongDetails, TopCharts } from './pages';
-
+// the color is Midnight black
 const App = () => {
   const { activeSong } = useSelector((state) => state.player);
   const location = useLocation();
@@ -15,9 +15,8 @@ const App = () => {
   return (
     <div className="relative flex overflow-hidden">
       <Sidebar />
-      <div className="flex-1 flex flex-col bg-gradient-to-br from-black to-[#121286]">
+      <div className="flex-1 flex flex-col bg-gradient-to-br from-black to-[#00040d]">
         <Searchbar />
-
         <div className="content px-6 h-[calc(100vh-72px)] overflow-y-scroll hide-scrollbar flex flex-col xl:flex-row">
           <div className="flex-1 h-fit pb-40" ref={ref}>
             <Routes>
@@ -35,9 +34,8 @@ const App = () => {
           </div>
         </div>
       </div>
-
       {activeSong?.title && (
-        <div className="absolute h-28 bottom-0 left-0 right-0 flex animate-slideup bg-gradient-to-br from-white/10 to-[#2a2a80] backdrop-blur-lg rounded-t-3xl z-10">
+        <div className="absolute h-28 bottom-0 left-0 right-0 flex animate-slideup bg-gradient-to-br from-white/10 to-[#00040d] backdrop-blur-lg rounded-t-3xl z-10">
           <MusicPlayer />
         </div>
       )}

@@ -6,7 +6,7 @@ import { HiOutlineMenu } from 'react-icons/hi';
 import { links } from '../assets/constants';
 
 // nav links component
-const NavLinks = ({ handleClick }) =>(
+const NavLinks = ({ handleClick }) => (
   <div className="mt-10">
     {links.map((link) => (
       <NavLink
@@ -21,17 +21,17 @@ const NavLinks = ({ handleClick }) =>(
       </NavLink>
     ))}
   </div>
-)
+);
 // sidebar component
 const Sidebar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
     <>
-      <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#191624]">
+      <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-gradient-to-br from-black to-[#00040d]">
         <h3 className="text-[#daa520] text-2xl font-bold text-center flex items-center">
           <RiMusic2Fill /> <span>BeatBox</span>
-          </h3>
+        </h3>
         <NavLinks />
       </div>
       <div className="absolute md:hidden block top-6 right-3">
@@ -47,12 +47,13 @@ const Sidebar = () => {
           />
         )};
       </div>
-      <div className={`absolute top-0 h-screen w-2/3 bg-gradient-to-tl from-white/10 to-[#483d8b]
-      backdrop-blur-lg z-10 p-6 md:hidden smooth-transition ${mobileMenuOpen ? 'left-0' : '-left-full'}`}>
+      <div className={`absolute top-0 h-screen w-2/3 bg-gradient-to-tl from-white/10 to-[#00040d]
+      backdrop-blur-lg z-10 p-6 md:hidden smooth-transition ${mobileMenuOpen ? 'left-0' : '-left-full'}`}
+      >
         <h3 className="text-[#daa520] text-2xl font-bold text-center flex items-center">
           <RiMusic2Fill />
           <span>BeatBox</span>
-          </h3>
+        </h3>
         <NavLinks handleClick={() => setMobileMenuOpen(false)} />
       </div>
     </>
