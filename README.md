@@ -1,4 +1,4 @@
-![BeatBox](https://github.com/mohamed-khaledes/BeatBox/assets/83855189/8ec17a9a-00fa-44df-bab3-04011a784f51)
+![BeatBox](https://github.com/mohamed-khaledes/BeatBox/assets/83855189/3657b939-488d-43b1-81c2-39a94b4429cd)
 
 
 # BeatBox Music App
