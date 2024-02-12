@@ -1,4 +1,5 @@
-![BeatBox](https://github.com/mohamed-khaledes/BeatBox/assets/83855189/f412935d-c677-4bdc-a6e1-78dc7167eba3)
+![BeatBox](https://github.com/mohamed-khaledes/BeatBox/assets/83855189/8ec17a9a-00fa-44df-bab3-04011a784f51)
+
 
 # BeatBox Music App
 Welcome to BeatBox, the ultimate music app for all your listening needs! This app is designed to provide a seamless and enjoyable user experience, with a focus on delivering high-quality music and a sleek interface.
@@ -11,7 +12,7 @@ Welcome to BeatBox, the ultimate music app for all your listening needs! This ap
 - User-friendly interface with smooth navigation
 
 ## Technologies
-- HTML, CSS, tailwind.CSS, js, React.js, Redux.js, Redux toolkit, Axios,Api
+- HTML, CSS, tailwind.CSS, js, React.js, Redux.js, Redux toolkit, Axios, Api
 
 ## Installation
 To get started with BeatBox, follow these steps:
