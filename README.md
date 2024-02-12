@@ -26,4 +26,5 @@ Once the app is up and running, you can explore its features and functionalities
 ## Contributing
 We welcome contributions from the community! If you have any ideas for improvements or new features, please submit a pull request or open an issue on our GitHub repository.
 
-## Live : https://beatbox-music.netlify.app/
+## Live
+- https://beatbox-music.netlify.app/
